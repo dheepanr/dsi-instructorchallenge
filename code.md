@@ -8,7 +8,7 @@
  - (https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.names)
 ### 1. Read in the data
 
-### 2. Separate the data into feature and target"
+### 2. Separate the data into feature and target
 
 ### 3. Create and evaluate using cross_val_score and 5 folds.
 
@@ -21,8 +21,8 @@
 
 ### 6. Tune the model using automated parametrics grid search via LogisticRegressionCV. Explain your intuition behind what is being tuned.
 
- - #### Q: What should we do to prevent overfitting so our model generalizes well to the test data?"
- - #### Q: What was the best C?
+ - Q: What should we do to prevent overfitting so our model generalizes well to the test data?
+ - Q: What was the best C?
 
 ### 7. Create Two Plots that describe the data and discuss your results"
 
