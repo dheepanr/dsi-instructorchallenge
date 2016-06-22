@@ -25,7 +25,7 @@
  - Q: What should we do to prevent overfitting so our model generalizes well to the test data?
  - Q: What was the best C?
 
-### 7. Create Two Plots that describe the data and discuss your results"
+### 7. Create Two Plots that describe the data and discuss your results
 
 ### 8. Provide a one-sentence summary for a non-technical audience. Then provide a longer paragraph-length technical explanation.
 
@@ -33,14 +33,15 @@
 
 ### Dataset
  - Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function.
+
 #### 1. Read in the data
 
 #### 2. Separate the data into feature and target
 
-#### 3. Build and initial model"
+#### 3. Build and initial model
 
-#### 4. Integrate your model into a pipeline"
+#### 4. Integrate your model into a pipeline
 
-#### 5. Evaluate your performance utilizing grid search with 5-fold cross validation. "
+#### 5. Evaluate your performance utilizing grid search with 5-fold cross validation. 
 
 
