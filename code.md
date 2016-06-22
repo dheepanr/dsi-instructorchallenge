@@ -1,332 +1,40 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Instructor Task\n",
-    "\n",
-    "## Part I - Logistic Regression\n",
-    "\n",
-    "### Dataset\n",
-    "- Here is the dataset\n",
-    "- Here is a description of the data. Ignore column 0 as it is merely the ID of a patient record."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 1. Read in the data"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 2. Separate the data into feature and target"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 3. Create and evaluate using cross_val_score and 5 folds."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "- What is the mean accuracy?\n",
-    "- What is the standard deviation of accuracy?"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 4. Get a classification report to identify type 1, type 2 errors. "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "- Use train_test_split to run your model once, with a test size of 0.33\n",
-    "- Make preidctions on the test set\n",
-    "- Compare the predictions to the answers to determine the classification report"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 5. Scale the data and see if that improves the score"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 6. Tune the model using automated parametrics grid search via LogisticRegressionCV. Explain your intuition behind what is being tuned. "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Q: What should we do to prevent overfitting so our model generalizes well to the test data?"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Q: What was the best C?"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 7. Create Two Plots that describe the data and discuss your results"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 8. Provide a one-sentence summary for a non-technical audience. Then provide a longer paragraph-length technical explanation."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Part II - Ensemble Methods\n",
-    "\n",
-    "### Dataset\n",
-    "- Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 1. Read in the data"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 2. Separate the data into feature and target"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 3. Build and initial model"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "1. Initialize a Decision Tree Classifier and use cross_val_score to evaluate it's performance. Set crossvalidation to 5-folds\n",
-    "2. Wrap a Bagging Classifier around the Decision Tree Classifier and use cross_val_score to evaluate it's performance. Set crossvalidation to 5-folds.\n",
-    "3. Which score is better? Are the score significantly different? How can you judge that?"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 4. Integrate your model into a pipeline"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### 5. Evaluate your performance utilizing grid search with 5-fold cross validation. "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 2",
-   "language": "python",
-   "name": "python2"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 2
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython2",
-   "version": "2.7.11"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 0
-}
+
+## Instructor Task
+
+## Part I - Logistic Regression
+### Dataset
+ - Here is the dataset
+ - Here is a description of the data. Ignore column 0 as it is merely the ID of a patient record.
+
+### 1. Read in the data
+
+### 2. Separate the data into feature and target"
+
+### 3. Create and evaluate using cross_val_score and 5 folds.
+
+### 4. Get a classification report to identify type 1, type 2 errors. 
+ - Use train_test_split to run your model once, with a test size of 0.33
+ - Make preidctions on the test set
+ - Compare the predictions to the answers to determine the classification report
+
+### 5. Scale the data and see if that improves the score"
+
+### 6. Tune the model using automated parametrics grid search via LogisticRegressionCV. Explain your intuition behind what is being tuned.
+
+#### Q: What should we do to prevent overfitting so our model generalizes well to the test data?"
+#### Q: What was the best C?
+
+### 7. Create Two Plots that describe the data and discuss your results"
+### 8. Provide a one-sentence summary for a non-technical audience. Then provide a longer paragraph-length technical explanation.
+
+## Part II - Ensemble Methods
+
+### Dataset
+- Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function.
+### 1. Read in the data
+### 2. Separate the data into feature and target
+### 3. Build and initial model"
+### 4. Integrate your model into a pipeline"
+### 5. Evaluate your performance utilizing grid search with 5-fold cross validation. "
+
+
