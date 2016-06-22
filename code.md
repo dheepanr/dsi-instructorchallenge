@@ -32,7 +32,7 @@
 ## Part II - Ensemble Methods
 
 ### Dataset
- - Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function.
+ Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function.
 
 #### 1. Read in the data
 
