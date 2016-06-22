@@ -19,7 +19,8 @@
 
 ### 5. Scale the data and see if that improves the score"
 
-### 6. Tune the model using automated parametrics grid search via LogisticRegressionCV. Explain your intuition behind what is being tuned.
+### 6. Tune the model using automated parametrics grid search via LogisticRegressionCV. 
+ Explain your intuition behind what is being tuned.
 
  - Q: What should we do to prevent overfitting so our model generalizes well to the test data?
  - Q: What was the best C?
@@ -31,7 +32,7 @@
 ## Part II - Ensemble Methods
 
 ### Dataset
-- Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function.
+ - Your dataset will be the breast cancer dataset. You can load it directly from scikit-learn using the load_breast_cancer function.
 #### 1. Read in the data
 
 #### 2. Separate the data into feature and target
